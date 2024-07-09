@@ -5,7 +5,7 @@ import util from 'util'
 const execPromise = util.promisify(exec)
 
 const root = async (req: Request, res: Response) => {
-  res.send('Welcome index page.')
+  res.send('Welcome index page.(modified)')
 }
 
 const deploy = async (req: Request, res: Response) => {
