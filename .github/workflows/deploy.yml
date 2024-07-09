@@ -15,4 +15,4 @@ jobs:
 
       - name: Deploy to local server
         run: |
-          curl -X POST https://851f-116-41-49-181.ngrok-free.app/api/deploy
+          curl -X POST https://2b5c-116-41-49-181.ngrok-free.app/api/deploy
